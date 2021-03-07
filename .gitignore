@@ -5,3 +5,4 @@
 # project specific
 logs/
 proxy/ssl/
+.env
