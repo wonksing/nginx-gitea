@@ -1,7 +1,8 @@
 version: '3'
 services:
   proxy:
-    image: nginx:latest
+    # image: nginx:latest
+    image: nginx:1.18.0
     ports:
       - "443:443"
     volumes:
