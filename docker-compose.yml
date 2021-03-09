@@ -9,6 +9,7 @@ services:
       - ./proxy/nginx.conf:/etc/nginx/nginx.conf
       - ./proxy/ssl:/opt/ssl
       - ${NGINX_LOG_PATH}:/var/log/nginx
+      - /etc/localtime:/etc/localtime:ro
     restart: always
     networks:
       default:
